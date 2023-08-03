@@ -1,52 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.container {
-  background-color: #86EEAC;
+
+.text-4xl {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.header {
+  flex: items-center;
+  justify-content: p-4;
+  background-color: #21c45d;
+  padding: 1rem;
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #86eeac;
+  padding: 1rem;
+  width: 70%;
+  border-radius: .5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #21c45d;
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.p {
+  justify-content: left;
+  color: #959aa2;
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem;
-  border-radius: 1rem;
-  margin-top: 2rem;
+  width: 100%;
 }
-h1 {
-  color: #333;
+
+.createCookie {
   font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
 }
-form {
-  margin-top: 2rem;
+
+.button {
+  background-color: #21c45d;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: .1rem;
+  font-weight: 500;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.form {
+  margin-bottom: 10px;
+}
+
+.firstInput {
+  width: 90%;
+  padding: 5px;
+}
+
 input {
   width: 100%;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1px solid #ccc;
-  margin-bottom: 1rem;
+  padding: 5px;
 }
-main {
-  margin-left: 2rem;
-  margin-right: 2rem;
+
+.threeFormButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-button {
-  background-color: #21C45D;
-  color: black;
-  font-size: 2rem;
-  padding: 10rem;
-  border-radius: 0.1rem;
-  cursor: pointer;
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: .1rem;
 }
-.btn-primary {
-  background-color: #21C45D;
+
+.firstLabel {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
 }
-footer {
-  position: fixed; /* Add this property to fix the footer */
-  bottom: 0; /* Position the footer at the bottom of the window */
-  left: 0; /* Align the footer to the left */
-  right: 0; /* Align the footer to the right */
-  background-color: #21C45D; /* Set the background color */
-  padding: 1rem; /* Add some padding */
-  font-size: 1rem;
-  color: #333;
-  text-align: left;
-  width: 100%; /* Ensure the footer takes the full width of the viewport */
-  
-  font-size: 1.5rem;
+
+label {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
 }
+
+
